@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7d9e5">
+<title>Bethany Arcadia | Mis XV Años</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Montserrat",sans-serif;background:#fff8fb;color:#5c4650}
+section{padding:75px 24px;text-align:center}
+.hero{
+ min-height:100svh; position:relative; display:flex; align-items:flex-end; justify-content:center;
+ overflow:hidden; color:white; background:#4b303b;
+}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 55%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(55,25,40,.78) 0%,rgba(55,25,40,.28) 48%,rgba(0,0,0,.05) 100%)}
+.hero-content{position:relative;z-index:2;width:min(680px,100%);padding:0 20px 70px}
+.small-title{font-size:11px;letter-spacing:5px;text-transform:uppercase;margin-bottom:16px;color:#ffe8f1}
+h1{font-family:"Cormorant Garamond",serif;font-size:clamp(64px,17vw,115px);font-weight:500;line-height:.78}
+.last-name{font-family:"Cormorant Garamond",serif;font-size:clamp(28px,7vw,48px);letter-spacing:6px;margin-top:17px}
+.xv{font-family:"Cormorant Garamond",serif;font-size:42px;margin:22px 0 10px}
+.divider{width:70px;height:1px;background:#f4c8d8;margin:20px auto}
+.date{font-size:12px;letter-spacing:4px}
+.message{max-width:600px;margin:auto;line-height:1.9;font-size:15px}
+.section-title{font-family:"Cormorant Garamond",serif;font-size:50px;font-weight:500;color:#9d5d79;margin-bottom:12px}
+.section-subtitle{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#b77c95;margin-bottom:18px}
+.event-card,.music-card{max-width:520px;margin:35px auto 0;padding:42px 25px;background:rgba(255,255,255,.8);border:1px solid #f0d4df;border-radius:22px;box-shadow:0 12px 35px rgba(150,80,110,.08)}
+.event-icon{font-size:28px;color:#b77c95;margin-bottom:12px}
+.event-card h3,.music-card h3{font-family:"Cormorant Garamond",serif;font-size:34px;color:#9d5d79;margin-bottom:15px}
+.event-card p{line-height:1.7}
+.map-button,.whatsapp,.music-button{display:inline-block;border:0;margin-top:22px;padding:14px 28px;border-radius:50px;background:#9d5d79;color:#fff;text-decoration:none;font-family:"Montserrat",sans-serif;font-size:12px;letter-spacing:1px;cursor:pointer}
+.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:600px;margin:38px auto 0}
+.count-box{background:#fff;border:1px solid #efd2df;padding:20px 8px;border-radius:14px}
+.count-box span{display:block;font-family:"Cormorant Garamond",serif;font-size:38px;color:#9d5d79}
+.count-box small{font-size:9px;letter-spacing:1px;text-transform:uppercase}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;max-width:900px;margin:35px auto 0}
+.photo{aspect-ratio:4/5;border-radius:18px;overflow:hidden;background:#f6d6e2}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.gallery .photo:first-child{grid-column:span 2;aspect-ratio:16/10}
+.music-card p{margin-top:8px;font-size:13px}
+.music-status{margin-top:14px;font-size:11px;color:#9d5d79;min-height:16px}
+.confirm-card{max-width:550px;margin:30px auto 0}
+footer{padding:65px 20px;background:#f9e3eb;text-align:center}
+footer h2{font-family:"Cormorant Garamond",serif;font-size:48px;font-weight:500;color:#9d5d79}
+footer p{margin-top:10px;font-size:13px}
+@media(max-width:600px){
+ section{padding:60px 20px}
+ .countdown{grid-template-columns:repeat(2,1fr);max-width:350px}
+ .gallery{grid-template-columns:1fr;gap:12px}
+ .gallery .photo:first-child{grid-column:auto;aspect-ratio:4/5}
+}
+</style>
+</head>
+
+<body>
+
+<!-- PORTADA -->
+<section class="hero">
+  <img class="hero-photo" src="DSC04819.jpg" alt="Bethany - portada">
+  <div class="hero-content">
+    <div class="small-title">Mis XV Años</div>
+    <h1>Bethany</h1>
+    <div class="last-name">ARCADIA</div>
+    <div class="xv">XV</div>
+    <div class="divider"></div>
+    <div class="date">22 · 11 · 2026</div>
+  </div>
+</section>
+
+<section>
+  <div class="section-subtitle">Un día especial</div>
+  <h2 class="section-title">Celebremos juntos</h2>
+  <p class="message">
+    Hay momentos que se quedan para siempre en el corazón.
+    Quiero compartir contigo uno de los días más especiales
+    de mi vida y celebrar juntos mis XV años.
+    <br><br>
+    ¡Será un honor contar con tu presencia!
+  </p>
+</section>
+
+<section>
+  <div class="section-subtitle">Cada vez falta menos</div>
+  <h2 class="section-title">La cuenta regresiva</h2>
+  <div class="countdown">
+    <div class="count-box"><span id="days">00</span><small>Días</small></div>
+    <div class="count-box"><span id="hours">00</span><small>Horas</small></div>
+    <div class="count-box"><span id="minutes">00</span><small>Minutos</small></div>
+    <div class="count-box"><span id="seconds">00</span><small>Segundos</small></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-subtitle">Te espero</div>
+  <h2 class="section-title">El gran día</h2>
+  <div class="event-card">
+    <div class="event-icon">✦</div>
+    <h3>Mis XV Años</h3>
+    <p><strong>Domingo 22 de noviembre de 2026</strong></p>
+    <br>
+    <p>🕒 3:00 PM</p>
+    <br>
+    <p>📍 La Labor, Nayarit</p>
+    <a href="https://www.google.com/maps/search/?api=1&query=La+Labor,+Nayarit,+Mexico"
+       target="_blank" rel="noopener noreferrer" class="map-button">Ver ubicación</a>
+  </div>
+</section>
+
+<section>
+  <div class="section-subtitle">Mis momentos</div>
+  <h2 class="section-title">Galería</h2>
+  <div class="gallery">
+    <div class="photo"><img src="DSC04819.jpg" alt="Bethany"></div>
+    <div class="photo"><img src="DSC05145.jpg" alt="Bethany"></div>
+    <div class="photo"><img src="DSC02789.jpg" alt="Bethany"></div>
+    <div class="photo"><img src="DSC02908.jpg" alt="Bethany"></div>
+    <div class="photo"><img src="DSC07729.jpg" alt="Bethany"></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-subtitle">Una canción especial</div>
+  <h2 class="section-title">Bruno Mars</h2>
+  <div class="music-card">
+    <p>La música que acompañará este momento tan especial.</p>
+
+    <!-- Coloca aquí tu archivo de audio local como musica.mp3 -->
+    <audio id="music" loop preload="auto">
+      <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-button" id="musicButton" type="button">▶ Reproducir música</button>
+    <div class="music-status" id="musicStatus"></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-subtitle">Tu presencia es importante</div>
+  <h2 class="section-title">¿Nos acompañas?</h2>
+  <div class="confirm-card">
+    <p class="message">
+      Confirma tu asistencia para poder compartir contigo este momento tan especial.
+    </p>
+    <a class="whatsapp"
+       href="https://wa.me/521XXXXXXXXXX?text=Hola,%20confirmo%20mi%20asistencia%20a%20los%20XV%20de%20Bethany."
+       target="_blank" rel="noopener noreferrer">Confirmar asistencia</a>
+  </div>
+</section>
+
+<footer>
+  <h2>Bethany</h2>
+  <p>Gracias por ser parte de mis XV años. 💗</p>
+  <p>22 · 11 · 2026</p>
+</footer>
+
+<script>
+const eventDate = new Date("November 22, 2026 15:00:00").getTime();
+
+function updateCountdown(){
+  const difference = eventDate - Date.now();
+  if(difference <= 0){
+    ["days","hours","minutes","seconds"].forEach(id => {
+      document.getElementById(id).innerText = "00";
+    });
+    return;
+  }
+  document.getElementById("days").innerText =
+    String(Math.floor(difference/(1000*60*60*24))).padStart(2,"0");
+  document.getElementById("hours").innerText =
+    String(Math.floor((difference/(1000*60*60))%24)).padStart(2,"0");
+  document.getElementById("minutes").innerText =
+    String(Math.floor((difference/(1000*60))%60)).padStart(2,"0");
+  document.getElementById("seconds").innerText =
+    String(Math.floor((difference/1000)%60)).padStart(2,"0");
+}
+updateCountdown();
+setInterval(updateCountdown,1000);
+
+/*
+  AUTOPLAY:
+  Los navegadores modernos NO permiten garantizar autoplay
+  de audio con sonido en una página web que acaba de abrirse.
+  Se intenta automáticamente; si el navegador lo bloquea,
+  cualquier toque/click en la página inicia la canción.
+*/
+const music = document.getElementById("music");
+const musicButton = document.getElementById("musicButton");
+const musicStatus = document.getElementById("musicStatus");
+
+function playingUI(){
+  musicButton.innerHTML = "❚❚ Pausar música";
+  musicStatus.innerHTML = "";
+}
+function pausedUI(){
+  musicButton.innerHTML = "▶ Reproducir música";
+}
+function startMusic(){
+  music.play().then(playingUI).catch(() => {
+    musicStatus.innerHTML = "Toca la pantalla para iniciar la música.";
+  });
+}
+musicButton.addEventListener("click", () => {
+  if(music.paused) startMusic();
+  else { music.pause(); pausedUI(); }
+});
+
+/* Primer intento */
+window.addEventListener("load", startMusic);
+
+/* Si el navegador bloquea autoplay, el primer toque/click inicia el audio */
+document.addEventListener("pointerdown", function startFromInteraction(){
+  if(music.paused) startMusic();
+  document.removeEventListener("pointerdown", startFromInteraction);
+}, {passive:true});
+</script>
+
+</body>
+</html>
